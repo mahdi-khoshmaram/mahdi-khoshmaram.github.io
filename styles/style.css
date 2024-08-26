@@ -105,13 +105,14 @@ body {
 }
 .sections {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
 }
 .inner{
     display: grid;
-    grid-template-rows: 1fr 3fr;
+    grid-template-rows: auto auto;
     background-color: rgb(255, 255, 255);
     margin: 1.6%;
+    margin-bottom: 0%;
 }
 .section-title {
     display: block;
@@ -137,6 +138,9 @@ body {
 .about-me {
     margin: 0;
 }
+.about-me-sencond-paragraph {
+    margin-top:10px ;
+}
 a {
     color:rgb(0, 104, 139);
     text-decoration: none;
@@ -151,6 +155,38 @@ a:hover{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Container for the tooltip */
 .tooltip {
     position: relative;
@@ -161,7 +197,7 @@ a:hover{
 /* Tooltip text (hidden by default) */
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 200px; /* Adjust width as needed */
+    width: 165px; /* Adjust width as needed */
     background-color: #555;
     color: #fff;
     text-align: center;
