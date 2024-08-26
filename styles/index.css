@@ -1,0 +1,98 @@
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.background {
+    display: grid;
+    grid-template-columns:auto;
+    background-color:rgb(205, 205, 205);
+    margin: -10px;
+    height: 1000px;
+}
+.container {
+    display: grid;
+    margin-top: 25px;
+    grid-template-columns: 160px auto 160px;
+}
+.middle-column {
+    display: grid;
+    grid-template-rows: 97px 38px 1fr;
+}
+.blue-head {
+    background-color: rgb(43, 84, 126);
+    color: white;
+    font-size: 27px;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+.menu {
+    display: grid;
+    grid-template-columns: 100px 100px 130px 150px 120px 100px 180px;
+    background-color:rgb(70, 62, 65);
+    text-align: center;
+    align-items: center;
+}
+.menu-key {
+    border-right-style: solid;
+    border-color: white;
+}
+.menu-key-anchors {
+    font-size: 120%;
+}
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+a:visited {
+    color: white;
+}
+.under-menu-div{
+    display: grid;
+    grid-template-rows:3.7fr 1fr 1fr 1fr 1fr;
+    background-color: white;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-top: none;
+}
+.home {
+    display: grid;
+    grid-template-columns: 325px auto;
+    /* background-color: aquamarine; */
+}
+.home-photo-div {
+    /* background-color: blue; */
+    padding-top: 25px;
+    padding-left: 20px;
+}
+.my-photo {
+    width: 300px;
+    border-radius: 3px;
+}
+.home-info-div {
+    padding-top: 50px;
+    padding-left: 20px;
+    /* background-color: brown; */
+}
+.home-info-subdiv {
+    display: grid;
+    grid-template-rows: auto auto;
+    font-family: arial;
+    font-size: 28px;
+    font-weight: 700;
+    /* background-color: aquamarine; */
+}
+.home-info-detailed {
+    display: grid;
+    grid-template-rows: auto auto;
+    font-size: 16.8px;
+    line-height: 7px;
+    /* background-color: blueviolet; */
+}
+.home-info-not-name-top {
+    line-height: 5px;
+    /* background-color: chartreuse; */
+}
+.home-info-not-name-bottom {
+    line-height: 5px;
+}
