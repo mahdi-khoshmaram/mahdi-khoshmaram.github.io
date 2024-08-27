@@ -56,7 +56,7 @@ body {
 }
 .under-menu-div{
     display: grid;
-    grid-template-rows:auto auto auto auto auto;
+    grid-template-rows:auto auto auto auto auto auto auto;
     background-color: white;
     border-width: 1px;
     border-color: black;
