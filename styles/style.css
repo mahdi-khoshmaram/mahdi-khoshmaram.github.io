@@ -103,7 +103,7 @@ body {
 .home-info-not-name-bottom {
     line-height: 5px;
 }
-.sections {
+.section {
     display: grid;
     grid-template-columns: auto;
 }
@@ -162,23 +162,39 @@ a:hover{
     font-size: 17px;
     padding-left: 100px;
 }
-ul {
+.ta-ul {
     /* margin-top: 0px; */
     margin-bottom: 0px;
 }
-li {
+.ta-li {
     padding-bottom: 9.072px;
 }
 .return-key {
     margin: 0px;
 }
-
-
-
-
-
-
-
+.section-content-publication{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.Pre-submission{
+    color: rgb(0, 104, 139);
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-top: 17px;
+}
+.publication-ul {
+    padding-left: 31px;
+    font-size: 15.4px;
+    margin-top: 10px;
+}
+.publication-exp {
+    /* color:rgb(126, 11, 11); */
+    color: black;
+}
+.paper-name{
+    color:blue;
+}
 
 
 
