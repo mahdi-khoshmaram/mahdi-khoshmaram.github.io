@@ -21,7 +21,8 @@ body {
 }
 .menu-div {
     display: grid;
-    grid-template-columns: 0.8fr 0.8fr 1fr 1fr 1fr 0.8fr 1.1fr;
+    /* grid-template-columns: 0.8fr 0.8fr 1fr 1fr 1fr 0.8fr 1.1fr; */
+    grid-template-columns: repeat(7, auto);
     background-color:rgb(70, 62, 65);
     text-align: center;
     align-items: center;
@@ -172,16 +173,16 @@ a:hover{
 .return-key {
     margin: 0px;
 }
-.section-content-publication{
+.section-content-make-2-row{
     display: grid;
     grid-template-rows: auto auto;
 }
 .Pre-submission{
     color: rgb(0, 104, 139);
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 700;
-    padding-left: 30px;
-    padding-top: 17px;
+    margin-left: 30px;
+    margin-top: 17px;
 }
 .publication-ul {
     padding-left: 31px;
@@ -195,6 +196,48 @@ a:hover{
 .paper-name{
     color:blue;
 }
+.section-content-skills{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.skill-type{
+    color: rgb(0, 104, 139);
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 19px;
+}
+.skill-ul{
+    padding-left: 31px;
+    font-size: 15.4px;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+.skills-divide {
+    display: grid;
+    grid-template-rows: repeat(5,auto);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
