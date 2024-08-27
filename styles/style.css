@@ -217,7 +217,10 @@ a:hover{
     display: grid;
     grid-template-rows: repeat(5,auto);
 }
-
+.one-project-div {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
 
 
 
