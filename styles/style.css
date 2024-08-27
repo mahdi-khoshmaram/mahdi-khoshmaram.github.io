@@ -219,9 +219,20 @@ a:hover{
 }
 .one-project-div {
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: auto 40px;
 }
-
+.first-row-of-project{
+    margin-top: 13px;
+}
+.project-title {
+    margin-left: 16px;
+    margin-top: 3px;
+    font-size: 15.4px;
+}
+.project-year {
+    margin-top: 6px;
+    font-size: 15.4px;
+}
 
 
 
