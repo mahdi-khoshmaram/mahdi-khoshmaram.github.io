@@ -21,8 +21,7 @@ body {
 }
 .menu-div {
     display: grid;
-    /* grid-template-columns: 0.8fr 0.8fr 1fr 1fr 1fr 0.8fr 1.1fr; */
-    grid-template-columns: repeat(7, auto);
+    grid-template-columns: repeat(8, auto);
     background-color:rgb(70, 62, 65);
     text-align: center;
     align-items: center;
@@ -57,7 +56,7 @@ body {
 }
 .under-menu-div{
     display: grid;
-    grid-template-rows:auto auto auto auto auto auto auto;
+    grid-template-rows: repeat(8, auto);
     background-color: white;
     border-width: 1px;
     border-color: black;
@@ -233,13 +232,44 @@ a:hover{
     margin-top: 6px;
     font-size: 15.4px;
 }
-
-
-
-
-
-
-
+.return-gap-projects {
+    margin-top: 5px;
+}
+.section-content-fun {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* column-gap: 10px;  */
+    /* row-gap: 10px; */
+    padding-top: 16px;
+    padding-left: 16px;  
+    padding-right: 16px;
+}
+.whole-fun-cell {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+}
+.fun-cell-top-part {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.fun-cell-bottom-part {
+    text-align: left;
+    font-family: "Comic Neue";
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 4px;
+    margin-bottom: 40px;
+    /* background-color: burlywood; */
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.fun-pic-part {
+    width:380px ;    
+}
+.chess-invite-span {
+    font-weight: 100;
+}
 
 
 
