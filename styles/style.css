@@ -113,8 +113,18 @@ body {
     margin-right: 45px;
     margin-top: 30px;
 }
-.research-div {
-    /* background-color: brown; */
+/* .research-div {
+    background-color: brown;
+} */
+.research-insight {
+    color: rgb(0, 104, 139);
+    font-size: 25.2;
+    font-weight: 700;
+    transition: color 0.15s;
+}
+.research-insight:hover {
+    text-decoration: none;
+    color:darkgreen;
 }
 .news-div {
     /* background-color:blue; */
