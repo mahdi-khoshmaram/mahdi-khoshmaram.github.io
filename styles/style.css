@@ -109,35 +109,42 @@ body {
 .research-news-div{
     /* background-color: #5b8443; */
     display: grid;
-    grid-template-columns: auto 350px;
-    margin-right: 10px;
+    grid-template-columns: auto 280px;
+    margin-right: 45px;
     margin-top: 30px;
 }
 .research-div {
-    background-color: brown;
+    /* background-color: brown; */
 }
 .news-div {
     /* background-color:blue; */
     height: 117px;
     display: grid;
     grid-template-rows: 20px auto;
-    border-style: solid;
+    /* border-style: solid; */
 }
 .news-title {
     font-size: 15px;
-    background-color: aqua;
+    background-color: rgb(43, 84, 126);
+    color: white;
     text-align: center;
 }
 .whole-news-content-div {
     display: grid;
     grid-template-rows: repeat(2,auto); 
+    background-color: rgb(149, 195, 241);
 }
 .one-news {
     display: grid;
-    grid-template-rows: 25px 12px;
+    grid-template-rows: 34px 12px;
 }
 .message-text {
-    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 45%;
+    overflow: hidden;
+    padding-top:3px;
+    padding-left: 5px;
     /* background-color: brown; */
 }
 .message-date {
@@ -146,8 +153,10 @@ body {
     font-size: 10px;
     justify-content: right;
     font-style: italic;
-    color: #555;
+    color: #3f3c3c;
     font-weight: 300;
+    margin-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .section {
     display: grid;
