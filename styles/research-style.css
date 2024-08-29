@@ -11,9 +11,6 @@ body {
     font-weight: 600;
     font-size: 15.6px;
 }
-/* .back-key-anchor {
-    margin-top: 40px;
-} */
 .back-key {
     margin-top: 20px;
     background-color: rgb(43, 84, 126);
@@ -33,13 +30,18 @@ body {
 .back-key:active {
     opacity: 0.7;
 }
+.middle-culomn---buit-by-my {
+    display: grid;
+    grid-template-rows: auto auto;
+}
 .middle-column {
     display: grid;
-    grid-template-rows: repeat(4,auto);
+    grid-template-rows: repeat(3,auto);
     background-color: white;
     min-width: 1200px;
-    /* padding-top: 30px; */
-    /* background-color:violet; */
+    border-style: solid;
+    border-width: 1px;
+    padding-bottom: 14px;
 }
 .zero-row {
     display: flex;
@@ -143,4 +145,13 @@ h1 {
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 31%;
+}
+.built-by-me {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 3px;
 }
