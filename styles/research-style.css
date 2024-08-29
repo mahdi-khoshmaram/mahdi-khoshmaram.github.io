@@ -16,15 +16,8 @@ body {
     grid-template-rows: repeat(3,auto);
     background-color: white;
     min-width: 1200px;
+    /* padding-top: 30px; */
     /* background-color:violet; */
-}
-.first-row {
-    /* background-color: rgb(71, 71, 234); */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 10px;
-    /* padding-top: 10px; */
 }
 .zero-row {
     display: flex;
@@ -33,7 +26,16 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
     color: rgb(43, 84, 126);
-    padding-top: 5px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.first-row {
+    /* background-color: rgb(71, 71, 234); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    /* padding-top: 10px; */
 }
 .neo4j-div {
     display: grid;
@@ -70,11 +72,11 @@ a {
     padding-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
 
 }
 .recent-paradigms-title {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     color: rgb(0, 104, 139);
     font-family: arial;
     font-size: 25px;
@@ -87,15 +89,30 @@ a {
     border-color: black;
     clear: both;
 }
-.paradigm-div {
-    background-color: tomato;
-    padding-left: 30px;
+.each-paradigm-div {
+    /* background-color: tomato; */
+    margin-top: 12px;
+    padding-left: 25px;
     padding-right: 30px;
-    background-color: rgb(255, 183, 0);
-
+    padding-bottom: 16px;
+    padding-top: 1px;
+    line-height: 22px;
+    font-size: 16.5px;
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 1px;
 }
 h1 {
-    background-color: thistle;
+    /* background-color: thistle; */
     margin:0;
-    font-size: 20px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-decoration: underline;
+    /* padding-left: -20px; */
+}
+.paradigm-one-img {
+    width: 600px;
+    margin-top: 15px;
+    margin-left: 24%;
 }
