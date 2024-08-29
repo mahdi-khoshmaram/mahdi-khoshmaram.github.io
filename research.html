@@ -3,7 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Research insights</title>
-        <link rel="icon" type="image/png" href="imgs/android-chrome-512x512.png">
+        <link rel="icon" type="image/png" href="imgs/research-icon.png">
         <link rel="stylesheet" href="styles/research-style.css">
     </head>
     <body>
@@ -22,6 +22,19 @@
                         <span class="bold">Neo4j Graph Visualization</span><br>This graph which is named <i>EMCKG</i>, illustrates the relational structure of <a target="_blank" href="https://github.com/Kent0n-Li/ChatDoctor">ChatDoctor dataset</a> using Neo4j. The entities in the EMCKG include <i>disease</i>, <i>symptom</i>, <i>drug recommendation</i>, and <i>test recommendation</i>. The relationships in the EMCKG include <i>possible_disease</i>, <i>need_medical_test</i>, <i>need_medication</i>, <i>has_symptom</i>, <i>can_check_disease</i>, <i>possible_cure_disease</i>. <u>Nodes</u> represent entities, and <u>edges</u> denote their relationships, following the approach outlined in <a target="_blank" href="https://aclanthology.org/2024.acl-long.558/">This paper</a> published in 2024. This visualization supports the analysis by revealing key interconnections within the dataset.
                     </div>
                 </div>
+            </div>
+            <!-- second row separated into 4 parts: title, first, second, third paradigm  -->
+            <div class="second-row">
+                <div class="recent-paradigms-title">
+                    recent paradigms in relation extractions
+                </div>
+                <div class="paradigm-div">
+                    <h1>first paradigm</h1>
+                    In this paradigm, relations were extracted in Two phases:<br><strong style="margin-left: 15px;">1) Named Entity Recognition or NER</strong><br><strong style="margin-left: 15px;">2) Relation Classification or RC</strong>
+                    <br>A couple of years ago, in order to extract relations in the sentences, first you should have a separate model for recognize your Entities.<br>Then a second model was needed to classify which relation type has the highest liklyhood based on the sentence and the entites extracted in the previous step. 
+                </div>
+                <div>3</div>
+                <div>4</div>
             </div>
         </div>
 

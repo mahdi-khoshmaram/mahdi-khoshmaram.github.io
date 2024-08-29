@@ -13,7 +13,7 @@ body {
 }
 .middle-column {
     display: grid;
-    grid-template-rows: repeat(2,auto);
+    grid-template-rows: repeat(3,auto);
     background-color: white;
     min-width: 1200px;
     /* background-color:violet; */
@@ -63,4 +63,39 @@ a {
     color:rgb(0, 104, 139);
     text-decoration: none;
     /* font-weight: 50; */
+}
+.second-row {
+    display: grid;
+    grid-template-rows: 30px auto auto auto;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: chartreuse;
+
+}
+.recent-paradigms-title {
+    background-color: blueviolet;
+    color: rgb(0, 104, 139);
+    font-family: arial;
+    font-size: 25px;
+    border-bottom-style: solid;
+    border-bottom-width: 0.8px;
+    border-bottom-color: rgb(128, 128, 128);
+    font-weight: 700;
+    text-shadow: rgb(192, 192, 192) 1px 1px 1px;
+    unicode-bidi: isolate;
+    border-color: black;
+    clear: both;
+}
+.paradigm-div {
+    background-color: tomato;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(255, 183, 0);
+
+}
+h1 {
+    background-color: thistle;
+    margin:0;
+    font-size: 20px;
 }
