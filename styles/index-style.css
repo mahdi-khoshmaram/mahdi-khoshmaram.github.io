@@ -10,7 +10,7 @@ body {
 .middle-column {
     display: grid;
     grid-template-rows: 97px 35px 1fr;
-    min-width: 1000px;
+    min-width: 840px;
     margin-top: 1.2%;
 }
 .blue-head {
