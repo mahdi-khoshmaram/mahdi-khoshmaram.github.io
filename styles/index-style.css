@@ -84,6 +84,7 @@ body {
 .home-info-div {
     padding-top: 50px;
     padding-left: 20px;
+    /* background-color: #e42121; */
 }
 .home-info-subdiv {
     display: grid;
@@ -91,20 +92,25 @@ body {
     font-family: arial;
     font-size: 28px;
     font-weight: 700;
+    /* background-color: aquamarine; */
 }
 .home-info-detailed {
     display: grid;
     grid-template-rows: auto auto;
     font-size: 16.8px;
-    line-height: 7px;
     /* background-color: blueviolet; */
 }
-.home-info-not-name-top {
-    line-height: 5px;
+.home-info-not-name-top-div {
+    padding-top: 15px;
     /* background-color: chartreuse; */
 }
-.home-info-not-name-bottom {
-    line-height: 5px;
+.home-info-not-name-bottom-div {
+    padding-top: 10px;
+    /* background-color: #5b8443; */
+}
+.home-personal-info-paragraph {
+    margin: 0px;
+    padding: 0px;
 }
 .research-news-div{
     /* background-color: #5b8443; */
