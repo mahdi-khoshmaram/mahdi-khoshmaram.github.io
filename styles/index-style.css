@@ -10,7 +10,7 @@ body {
 .middle-column {
     display: grid;
     grid-template-rows: 97px 35px 1fr;
-    min-width: 840px;
+    min-width: 1200px;
     margin-top: 1.2%;
 }
 .blue-head {
@@ -79,7 +79,7 @@ body {
 }
 .my-photo {
     width: 300px;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 .home-info-div {
     padding-top: 50px;
