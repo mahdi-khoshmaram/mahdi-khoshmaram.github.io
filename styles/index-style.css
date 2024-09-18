@@ -11,7 +11,7 @@ body {
     display: grid;
     grid-template-rows: 97px 35px 1fr;
     min-width: 1200px;
-    margin-top: 1.2%;
+    /* margin-top: 0.2%; */
 }
 .blue-head {
     background-color: rgb(43, 84, 126);
@@ -68,29 +68,29 @@ body {
 }
 .home {
     display: grid;
-    grid-template-columns: 325px auto;
+    grid-template-columns: 230px auto;
     /* TEMP */
     /* background-color: aquamarine; */
 }
 .home-photo-div {
     /* background-color: blue; */
-    padding-top: 25px;
-    padding-left: 20px; 
+    padding-top: 20px;
+    padding-left: 20px;
 }
 .my-photo {
-    width: 300px;
+    width: 200px;
     border-radius: 5px;
 }
 .home-info-div {
-    padding-top: 50px;
-    padding-left: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
     /* background-color: #e42121; */
 }
 .home-info-subdiv {
     display: grid;
     grid-template-rows: auto auto auto;
     font-family: arial;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 700;
     /* background-color: aquamarine; */
 }
