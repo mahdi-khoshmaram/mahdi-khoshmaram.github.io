@@ -50,7 +50,7 @@
 \addtolength{\oddsidemargin}{-0.6in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1.19in}
-\addtolength{\topmargin}{-.7in}
+\addtolength{\topmargin}{-0.7in}
 \addtolength{\textheight}{1.4in}
 
 \urlstyle{same}
@@ -162,7 +162,8 @@
 	
 	\resumeSubheadingeducation
 	{B.S. of Electrical Engineering - University of Tabriz}{2017 -- 2021}
-	{Thesis: Handwritten digit recognition using ResNet architecture}{}{Major GPA: 3.34/4}{}{Class Rank: 20/150 in Electrical Engineering}
+	{Thesis: Handwritten digit recognition using ResNet architecture}{}{Major GPA: 3.34/4}{}{}
+	%{Class Rank: 20/150 in Electrical Engineering}
 	
 	\resumeSubHeadingListEnd
 	
@@ -170,7 +171,7 @@
 	\section{\textcolor{title-color}{Research Interests}}
 	%\resumeSubHeadingListStart
 	My research interests are in two primary areas: Firstly, Making self-evolving LLMs that are less dependent on supervised data. Secondly, to make LLMs reliable and interpretable systems that can be trusted, especially in sensitive areas such as the medical field.
-	\\Currently, I am working on relation extraction in unstructured medical texts using LLMs, to develop more dependable models. I have also contributed to an industrial project in question-answering systems in the medical domain aimed at enhancing reasoning and reducing hallucinations through RAG systems and knowledge graphs.
+	\\Currently, I am working on relation extraction in unstructured medical texts using LLMs, to develop more dependable models. Under the supervision of my master's advisor, I also contributed to an industrial project in Italy, working on medical question-answering systems. The project aimed to enhance reasoning and reduce hallucinations in LLMs using RAG systems and knowledge graphs. Specifically, we worked on optimizing the RAG pipeline, focusing on the retrieval process to extract sub-graphs from large medical knowledge graphs based on user input to the LLM. We have worked on several graph algorithms such as Community detection to improve the retrieval part.
 	
 	
 %	\vspace*{2.0\multicolsep}
@@ -229,29 +230,14 @@
 
 	
 	\resumeSubHeadingListEnd
-	\vspace{-9pt}
-	
-	%-----------TA EXPERIENCE-----------
-	\section{\textcolor{title-color}{Teaching Assistant Experiences}}
-	\resumeSubHeadingListStart
-	
-	\resumeSubheading
-	{Algorithm Design - K.N.Toosi University of Technology}{Ongoing}
-	{}{Dr. Pishgoo}
-	\resumeSubheading
-	{Artificial intelligence - K.N.Toosi University of Technology}{Fall 2023}
-	{Designing HWs and Teaching DL Frameworks and libraries such as PyTorch as a Head Teaching Assistant. }{Dr. Pishgoo}
-	
-	\resumeSubheading
-	{Advanced Programming - Sharif University of Technology}{Fall 2022}
-	{First-class Functions, Closures and Decorators and OOP in Python were taught.}{Dr. Sharifi-Zarchi}
-	\resumeSubHeadingListEnd
-	\vspace{-9pt}
-
-	%-----------PROJECTS-----------
+	\vspace{-3pt}
+		%-----------PROJECTS-----------
 	\section{\textcolor{title-color}{Projects}}
 	\vspace{-5pt}
 	\resumeSubHeadingListStart
+	\resumeProjectHeading
+	{\textbf {\href{https://github.com/mahdi-khoshmaram/UMLS-for-LLMs-in-medical-domain}{\raisebox{-0.05\height}\faGithub \hspace{2pt}RAG-driven Llama3.1 using UMLS \& Knowledge graphs for Relation extracion}} $|$ \emph{Neo4j, Langchain}}{ongoing}
+	\vspace{-30pt}
 	\resumeProjectHeading
 	{\textbf {\href{https://github.com/mahdi-khoshmaram/Chemial-Disease-Relation-Extraction}{\raisebox{-0.05\height}\faGithub \hspace{2pt}Few-Shot Chemical-Disease Relation(CDR) Extraction on PubMed Abstracts}} $|$ \emph{Langchain, Python}}{2024}
 	\vspace{-30pt}
@@ -263,7 +249,8 @@
 	\vspace{-30pt}
 	\resumeProjectHeading
 	{\textbf {\href{https://github.com/mahdi-khoshmaram/masked-lm-persian}{\raisebox{-0.05\height}\faGithub \hspace{2pt}Masked Language Model Implementation on Middle Persian language}} $|$ \emph{Pytorch, HuggingFace}}{2023}
-	\vspace{-30pt}
+	%\vspace{-30pt}
+	\vspace{1pt}
 	\resumeProjectHeading
 	{\textbf {\href{https://github.com/mahdi-khoshmaram/movielens-deepwalk}{\raisebox{-0.05\height}\faGithub \hspace{2pt}Representation learning using Deepwalk algorithm on MovieLens dataset}} $|$ \emph{Python}}{2023}
 	\vspace{-30pt}
@@ -277,9 +264,28 @@
 	{\textbf {\href{https://github.com/mahdi-khoshmaram/Search-Engine-For-Persian-Poems}{\raisebox{-0.05\height}\faGithub \hspace{2pt}Search engine for Persian Poems}} $|$ \emph{Python, whoosh, Hazm, Parsivar}}{2022}
 	\vspace{-30pt}
 	\resumeProjectHeading
-		{\textbf {\href{https://github.com/mahdi-khoshmaram/software-architecture-chess-game}{\raisebox{-0.05\height}\faGithub \hspace{2pt}Designing a software architecture for web-based chess game}}}{2021}
+	{\textbf {\href{https://github.com/mahdi-khoshmaram/software-architecture-chess-game}{\raisebox{-0.05\height}\faGithub \hspace{2pt}Designing a software architecture for web-based chess game}}}{2021}
 	\resumeSubHeadingListEnd
 	\vspace{-7pt}
+	
+	%-----------TA EXPERIENCE-----------
+	\section{\textcolor{title-color}{Teaching Assistant Experiences}}
+	\resumeSubHeadingListStart
+	
+	\resumeSubheading
+	{Algorithm Design - K.N.Toosi University of Technology}{Ongoing}
+	{Role: Head TA in the course}{Dr. Pishgoo}
+	\resumeSubheading
+	{Artificial intelligence - K.N.Toosi University of Technology}{Fall 2023}
+	{Designing HWs and Teaching DL Frameworks and libraries such as PyTorch as a Head Teaching Assistant. }{Dr. Pishgoo}
+	
+	\resumeSubheading
+	{Advanced Programming - Sharif University of Technology}{Fall 2022}
+	{First-class Functions, Closures and Decorators and OOP in Python were taught.}{Dr. Sharifi-Zarchi}
+	\resumeSubHeadingListEnd
+	\vspace{-9pt}
+
+
 	
 		%-----------PROGRAMMING SKILLS-----------
 	\section{\textcolor{title-color}{Technical Skills}}
@@ -288,9 +294,9 @@
 				\textbf{Programming Languages}{: Python, Rust, SQL, Cypher, \LaTeX} \\
 				\textbf{NLP}{: LangChain, LangGraph, Hugging Face Tokenizers and Transformers, NLTK, Ollama, Neo4j, OpenAI} \\
 				\textbf{ML}{: PyTorch, Matplotlib, Numpy, Pandas, Scikit Learn} \\
-				\textbf{Web-development}{: Django, HTML, CSS, JavaScript} \\
+				\textbf{Web-development}{: Django, HTML, CSS, JavaScript, FastAPI} \\
 				\textbf{Data Management}{: Neo4j, MySQL, Microsoft SQL Server} \\
-				\textbf{Other Tools \& Skills}{: Microsoft Power BI, Git, Docker, Linux, TeXstudio, Prompt Engineering, Wireshark, Proteus Design Suite} \\
+				\textbf{Other Tools \& Skills}{: Microsoft Power BI, Git, Docker, Linux, TeXstudio, Prompt Engineering, Wireshark} \\
 		}}
 	\end{itemize}
 
@@ -341,7 +347,7 @@
 	\section{\textcolor{title-color}{Languages}}
 	\begin{itemize}[leftmargin=0.03in, label={}]
 		\small{\item{
-				\textbf{English}{: Fluent (TOEFL exam scheduled for October 5, 2024)} \\
+				\textbf{English}{: Fluent (TOEFL score: 82)} \\
 				\textbf{Persian}{: Native} \\
 				\textbf{Azari}{: Native} \\
 				\textbf{Turkish}{: Fluent} \\
