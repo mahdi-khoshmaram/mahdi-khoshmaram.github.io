@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.7)  21 OCT 2024 23:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.7)  24 NOV 2024 01:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -533,11 +533,6 @@ Overfull \hbox (0.55968pt too wide) in paragraph at lines 254--258
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 258--261
-[] 
- []
-
-
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -551,6 +546,11 @@ i/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free2.enc}{C:/U
 sers/mahdi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.
 enc}{C:/Users/mahdi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/
 fa5brands0.enc}]
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 258--261
+[] 
+ []
+
+
 Overfull \hbox (0.55968pt too wide) in paragraph at lines 261--264
 [] 
  []
@@ -630,31 +630,33 @@ Package rerunfilecheck Info: File `CV.out' has not changed.
 (rerunfilecheck)             Checksum: 3FF94DC20729A6DE8B89F18747679350;1067.
  ) 
 Here is how much of TeX's memory you used:
- 14480 strings out of 473899
- 249834 string characters out of 5726500
- 670830 words of memory out of 5000000
- 37173 multiletter control sequences out of 15000+600000
- 567346 words of font info for 68 fonts, out of 8000000 for 9000
+ 14482 strings out of 473899
+ 249860 string characters out of 5726500
+ 665830 words of memory out of 5000000
+ 37174 multiletter control sequences out of 15000+600000
+ 568047 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,817b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\mahdi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx
-1000.pk><C:/Users/mahdi/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontaw
-esome5/FontAwesome5Brands-Regular.pfb><C:/Users/mahdi/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/mahdi
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Us
-ers/mahdi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.p
-fb><C:/Users/mahdi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmbxti10.pfb><C:/Users/mahdi/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmcsc10.pfb><C:/Users/mahdi/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb><C:/Users/mahdi/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/mahdi/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/mahdi/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/mahdi/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/mahd
-i/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti7.pfb>
-Output written on CV.pdf (2 pages, 206442 bytes).
+1000.pk> <C:\Users\mahdi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecbi1095.pk><C:/Users/mahdi/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Users/mahdi/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users
+/mahdi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+<C:/Users/mahdi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+bx12.pfb><C:/Users/mahdi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmbxti10.pfb><C:/Users/mahdi/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmcsc10.pfb><C:/Users/mahdi/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/mahdi/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/mahdi/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/mahdi/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/mahdi/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/User
+s/mahdi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti7.pfb>
+
+Output written on CV.pdf (2 pages, 208049 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
+ 152 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
