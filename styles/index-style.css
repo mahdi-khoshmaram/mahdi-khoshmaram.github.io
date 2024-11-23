@@ -292,6 +292,10 @@ a:hover{
     display: grid;
     grid-template-columns: auto 40px;
 }
+.one-project-div-ongoing {
+    display: grid;
+    grid-template-columns: auto 60px;
+}
 .first-row-of-project{
     margin-top: 13px;
 }
