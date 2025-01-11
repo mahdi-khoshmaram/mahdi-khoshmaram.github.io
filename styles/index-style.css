@@ -1,0 +1,447 @@
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    display: grid;
+    grid-template-columns: 150px auto 150px;
+    background-color: rgb(205, 205, 205);
+    color: black;
+}
+.middle-column {
+    display: grid;
+    grid-template-rows: 97px 35px 1fr;
+    min-width: 1200px;
+    /* margin-top: 0.2%; */
+}
+.blue-head {
+    background-color: rgb(43, 84, 126);
+    color: white;
+    font-size: 27px;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+.menu-div {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    background-color:rgb(70, 62, 65);
+    text-align: center;
+    align-items: center;
+}
+.menu-key-div {
+    height: 20px;
+}
+.menu-key-anchors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 120%;
+    height: 100%;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-right-style: solid;
+    border-color: white;
+    border-width: 2px;
+    transition: font-size 0.15s;
+}
+.menu-key-anchors:hover {
+    color: gold !important;
+    font-size: 135%;
+    text-decoration: none;
+}
+.menu-key-anchors:visited {
+    color: white;
+}
+.lastkey {
+    border-right-style: none;
+}
+.under-menu-div{
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+    background-color: white;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-top: none;
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+}
+.home {
+    display: grid;
+    grid-template-columns: 230px auto;
+    /* TEMP */
+    /* background-color: aquamarine; */
+}
+.home-photo-div {
+    /* background-color: blue; */
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.my-photo {
+    width: 200px;
+    border-radius: 5px;
+}
+.home-info-div {
+    padding-top: 30px;
+    padding-left: 10px;
+    /* background-color: #e42121; */
+}
+.home-info-subdiv {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    font-family: arial;
+    font-size: 25px;
+    font-weight: 700;
+    /* background-color: aquamarine; */
+}
+.home-info-detailed {
+    display: grid;
+    grid-template-rows: auto auto;
+    font-size: 16.8px;
+    /* background-color: blueviolet; */
+}
+.home-info-not-name-top-div {
+    padding-top: 15px;
+    /* background-color: chartreuse; */
+}
+.home-info-not-name-bottom-div {
+    padding-top: 10px;
+    /* background-color: #5b8443; */
+}
+.home-personal-info-paragraph {
+    margin: 0px;
+    padding: 0px;
+}
+.research-news-div{
+    /* background-color: #5b8443; */
+    display: grid;
+    grid-template-columns: auto 280px;
+    margin-right: 45px;
+    margin-top: 30px;
+}
+/* .research-div {
+    background-color: brown;
+} */
+.research-insight {
+    color: rgb(0, 104, 139);
+    font-size: 25.2;
+    font-weight: 700;
+    transition: color 0.15s;
+}
+.research-insight:hover {
+    text-decoration: none;
+    color:darkgreen;
+}
+.news-div {
+    /* background-color:blue; */
+    height: 117px;
+    display: grid;
+    grid-template-rows: 20px auto;
+    /* border-style: solid; */
+}
+.news-title {
+    font-size: 15px;
+    background-color: rgb(43, 84, 126);
+    color: white;
+    text-align: center;
+}
+.whole-news-content-div {
+    display: grid;
+    grid-template-rows: repeat(2,auto); 
+    background-color: rgb(149, 195, 241);
+}
+.one-news {
+    display: grid;
+    grid-template-rows: 34px 12px;
+}
+.message-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 45%;
+    overflow: hidden;
+    padding-top:3px;
+    padding-left: 5px;
+    color: #555;
+    /* background-color: brown; */
+}
+.message-date {
+    /* background-color: #5b8443; */
+    display: flex;
+    font-size: 10px;
+    justify-content: right;
+    font-style: italic;
+    color: #3f3c3c;
+    font-weight: 300;
+    margin-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.section {
+    display: grid;
+    grid-template-columns: auto;
+}
+.inner{
+    display: grid;
+    grid-template-rows: auto auto;
+    background-color: rgb(255, 255, 255);
+    margin: 1.6%;
+    margin-bottom: 0%;
+}
+.section-title {
+    display: block;
+    color: rgb(0, 104, 139);
+    font-family: arial;
+    font-size: 22.4px;
+    border-bottom-style: solid;
+    border-bottom-width: 0.8px;
+    border-bottom-color: rgb(128, 128, 128);
+    font-weight: 700;
+    text-shadow: rgb(192, 192, 192) 1px 1px 1px;
+    unicode-bidi: isolate;
+    border-color: black;
+    clear: both;
+}
+.section-content-about-me {
+    color: black;
+    font-size: 15.4px;
+    margin-left: 22px;
+    margin-right: 7.7px;
+    margin-top: 15px;
+}
+.about-me {
+    margin: 0;
+}
+.about-me-sencond-paragraph {
+    margin-top:10px ;
+}
+a {
+    color:rgb(0, 104, 139);
+    text-decoration: none;
+    /* font-weight: 50; */
+}
+a:visited {
+    color:rgb(0, 104, 139);
+}
+a:hover{
+    text-decoration: underline;
+}
+.section-content-teaching{
+    color: black;
+    font-size: 15.4px;
+}
+.ta-supervisor {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 17px;
+    padding-left: 100px;
+}
+.ta-ul {
+    /* margin-top: 0px; */
+    margin-bottom: 0px;
+}
+.ta-li {
+    padding-bottom: 9.072px;
+}
+.return-key {
+    margin: 0px;
+}
+.section-content-make-2-row{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.Pre-submission{
+    color: rgb(0, 104, 139);
+    font-size: 19px;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 17px;
+}
+.publication-ul {
+    padding-left: 31px;
+    font-size: 15.4px;
+    margin-top: 10px;
+}
+.publication-exp {
+    /* color:rgb(126, 11, 11); */
+    color: black;
+}
+.paper-name{
+    color:blue;
+}
+.section-content-skills{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.skill-type{
+    color: rgb(0, 104, 139);
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 19px;
+}
+.skill-ul{
+    padding-left: 31px;
+    font-size: 15.4px;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+.skills-divide {
+    display: grid;
+    grid-template-rows: repeat(5,auto);
+}
+.one-project-div {
+    display: grid;
+    grid-template-columns: auto 40px;
+}
+.one-project-div-ongoing {
+    display: grid;
+    grid-template-columns: auto 60px;
+}
+.first-row-of-project{
+    margin-top: 13px;
+}
+.project-title {
+    margin-left: 16px;
+    margin-top: 3px;
+    font-size: 15.4px;
+}
+.project-year {
+    margin-top: 6px;
+    font-size: 15.4px;
+}
+.return-gap-projects {
+    margin-top: 5px;
+}
+.all-posts-div {
+    display: grid;
+    grid-template-columns: repeat(2, 370px);
+    /* background-color: rgb(0, 0, 0); */
+    justify-content: center;
+    margin: 10px;
+    margin-top: 30px;
+    row-gap: 10px;
+    column-gap: 50px;
+}
+.post {
+    display: grid;
+    grid-template-rows: 250px 90px;
+    /* background-color:rgb(137, 238, 130); */
+    justify-content: center;
+}
+.post-img-div {
+    display: flex;
+    background-color:whitesmoke;
+    width: 370px;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 30px;
+    /* border-bottom: solid; 
+    border-width: 0.5px; */
+
+}
+.post-caption-div{
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-left: 9px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* border-top: solid; */
+    border-width: 1.5px;
+    /* font-size: 13.7px; */
+}
+.countdown {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.singularity-more-info{
+    cursor: pointer;
+    font-size: 10px;
+}
+.toughest-chess-puzzle-test{
+    font-size: 10px;
+}
+.chess-dot-com {
+    color: #5b8443;
+    cursor: pointer;
+}
+.built-by-me {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Container for the tooltip */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* Tooltip text (hidden by default) */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 165px; /* Adjust width as needed */
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Position above the link */
+    left: 50%;
+    margin-left: -100px; /* Center the tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip when hovering over the link */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}

@@ -1,0 +1,363 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{xcolor}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\definecolor{title-color}{HTML}{229799}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-0.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+	\vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{title-color}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+	\item\small{
+		{#1 \vspace{-2pt}}
+	}
+}
+
+\newcommand{\classesList}[4]{
+	\item\small{
+		{#1 #2 #3 #4 \vspace{-2pt}}
+	}
+}
+
+%------------------Mine-start----------------
+\newcommand{\resumeSubheadingeducation}[7]{
+	\vspace{-2pt}\item
+	\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & \textbf{\small #2} \\
+		\textit{\small#3} & \textit{\small #4} \\
+		\textit{\small#5} & \textit{\small #6} \\
+		\textit{\small#7}
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheadingeducation}[2]{
+	\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\textit{\small#1} & \textit{\small #2} \\
+	\end{tabular*}\vspace{-7pt}
+}
+%------------------mine-end------------------
+\newcommand{\resumeSubheading}[4]{
+	\vspace{-2pt}\item
+	\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & \textbf{\small #2} \\
+		\textit{\small#3} & \textit{\small #4} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+	\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\textit{\small#1} & \textit{\small #2} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+	\item
+	\begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+		\small#1 & \textbf{\small #2}\\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+	\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+	\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+	
+	%----------HEADING----------
+	% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+		%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+		%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+		% \end{tabular*}
+	
+	\begin{center}
+		{\Huge \scshape \textcolor{title-color}{Mahdi Khoshmaramzade}} \\ \vspace{1pt}
+		Tehran, Iran \\ \vspace{1pt}
+		\small \raisebox{-0.1\height}\faPhone\ (+98)9147716617 ~ \href{mailto:Mahdikhoshmaramzade@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{Mahdikhoshmaramzade@gmail.com}} ~
+		\href{https://github.com/mahdi-khoshmaram}{\raisebox{-0.2\height}\faGithub\  \underline{Github}} ~
+		\href{https://mahdi-khoshmaram.github.io/}{\raisebox{-0.2\height}\faGlobe\  \underline{Personal WebPage}}
+		\vspace{-1pt}
+	\end{center}
+	
+	
+	%-----------EDUCATION-----------
+	\section{\textcolor{title-color}{Education}}
+	\resumeSubHeadingListStart
+	\resumeSubheadingeducation
+	{M.S. of Software Engineering - K.N.Toosi University of Technology}{2022 -- ongoing}
+	{Thesis:  Improving relation extraction models in medical domain using large language models}{}{GPA: 3.65/4}{}{Class Rank: Among top 10\%}
+	
+	\resumeSubheadingeducation
+	{B.S. of Electrical Engineering - University of Tabriz}{2017 -- 2021}
+	{Thesis: Handwritten digit recognition using ResNet architecture}{}{Major GPA: 3.34/4}{}{}
+	%{Class Rank: 20/150 in Electrical Engineering}
+	
+	\resumeSubHeadingListEnd
+	
+		%------Interests-------
+	\section{\textcolor{title-color}{Research Interests}}
+	%\resumeSubHeadingListStart
+	\textbf{I am passionate about} improving the reliability, interpretability, and robustness of large language models. My work focuses on tackling issues like hallucinations and biases while enhancing overall model performance. I aim to develop methods that make these models more transparent, trustworthy, and aligned with human values, ensuring they perform effectively in real-world applications.
+	\\\textbf{Currently}, My master’s thesis focuses on converting unstructured data from electronic health records into accessible tables using LLMs and RAG framework, potentially revolutionizing clinical research and healthcare outcomes. 	Further, under the guidance of my supervisor, I contributed to an industrial project in Italy aimed at enhancing medical question-answering systems. This project focused on reducing hallucinations and improving the reasoning capabilities of LLMs using RAG systems and knowledge graphs. I led the optimization of the retrieval pipeline to extract relevant sub-graphs from extensive medical knowledge graphs based on user inputs. I helped improve retrieval accuracy and efficiency by employing advanced community detection graph algorithms such as the Louvain algorithm. In the final phase, I designed a chain of thought prompts to make the model more transparent.
+	
+	
+%	\vspace*{2.0\multicolsep}
+	%\resumeSubHeadingListEnd
+	
+	%------RELEVANT COURSEWORK-------
+	%\section{Relevant Courses}
+%	%\resumeSubHeadingListStart
+%	\begin{multicols}{3}
+	%	\begin{itemize}[itemsep=-5pt, parsep=3pt]
+	%		\item Pattern Recognition (3/4)
+	%		\item Advanced data mining (4/4)
+	%		\item Software Architecture (4/4)
+	%		\item Information Retrieval (4/4)
+	%		\item Algorithm Design (4/4)
+	%		\item Advanced Algorithms (4/4)
+	%		\item Linear algebra (Coursera Certificate)
+	%	\end{itemize}
+%	\end{multicols}
+	%	\vspace{-4pt}
+	%\vspace*{2.0\multicolsep}
+	%\resumeSubHeadingListEnd
+	%-----------Publications------------
+	\section{\textcolor{title-color}{Publications}}
+	
+	%\subsection{Pre-submission}
+	\vspace{4pt}
+	\begin{itemize}[left=0pt]
+		\item \textbf{Mahdi Khoshmaramzade}, Saeed Farzi, Sina Mansoori \hfill \textit{\small Working Paper}\\
+		\textbf{\textit{\small{Efficient Medical Relation Extraction via RAG-Enhanced LLMs and Knowledge Graphs}}} \\
+		{\small In This paper, our focus is to enhance model's reliability and reasoning and Diminishing it's Hallucination using Custom Large Knowledge graph in the medical Domain}
+		\item Boshra Pishgoo, \textbf{Mahdi Khoshmaramzade} \hfill \textit{\small Working paper}\\
+		\textbf{\textit{‌Clustering and behavioral analysis of social media users using Large Language models}} \\
+		{\small This paper aims to extract types of human behaviors by gathering data from social media platforms such as X. The study employs large language models (LLMs) and clustering algorithms, including DBSCAN and HDBSCAN, to accomplish this task.}
+	\end{itemize}
+		%-----------Research EXPERIENCE-----------
+	\section{\textcolor{title-color}{Research Experience}}
+	\vspace{-5pt}
+	\resumeSubHeadingListStart
+	
+	
+	\resumeProjectHeading
+	{\textbf{K.N.Toosi University of Technology, Research assistant}}{Jun. 2023 -- Ongoing}
+	\resumeItemListStart
+	\resumeItem{We are working on LLMs systems and RAG pipeline especially retrieval part to extract optimized sub-graphs from large medical knowledge graph, based on user's input to LLM}
+	\resumeItem{We have worked on Several graph algorithms such as Community detection to improve retrieval part}
+	\resumeItemListEnd 
+	\vspace{-13pt}
+	
+	\resumeProjectHeading
+	{\textbf{‌Beshart, NLP Researcher}}{Oct. 2022 -- Mar. 2023}
+	\resumeItemListStart
+	\resumeItem{Fine-tuned BERT model to analyze Twitter data, identifying unmet needs of Indian consumers.}
+	\resumeItem{Extracted insights on gaps in the Indian market by processing and analyzing social media data.}
+	\resumeItemListEnd 
+
+	
+	\resumeSubHeadingListEnd
+	\vspace{-3pt}
+		%-----------PROJECTS-----------
+	\section{\textcolor{title-color}{Projects}}
+	\vspace{-5pt}
+	\resumeSubHeadingListStart
+	\resumeProjectHeading
+	{\textbf {\href{https://github.com/mahdi-khoshmaram/UMLS-for-LLMs-in-medical-domain}{\raisebox{-0.05\height}\faGithub \hspace{2pt}RAG-driven Llama3.1 using UMLS \& Knowledge graphs for Relation extracion}} $|$ \emph{Neo4j, Langchain}}{ongoing}
+	\vspace{-30pt}
+	\resumeProjectHeading
+	{\textbf {\href{https://github.com/mahdi-khoshmaram/Chemial-Disease-Relation-Extraction}{\raisebox{-0.05\height}\faGithub \hspace{2pt}Few-Shot Chemical-Disease Relation(CDR) Extraction on PubMed Abstracts}} $|$ \emph{Langchain, Python}}{2024}
+	\vspace{-30pt}
+	\resumeProjectHeading
+	{\textbf {\href{https://github.com/mahdi-khoshmaram/Medical-Question-Answering}{\raisebox{-0.05\height}\faGithub \hspace{2pt}Medical QA LLM model enhanced By RAG and KG}} $|$ \emph{Langchain, Neo4j, LLaMA 3, UMLS(NIH), Python}}{2024}
+	\vspace{-30pt}
+	\resumeProjectHeading
+	{\textbf {\href{https://github.com/mahdi-khoshmaram/Instagram-crawl}{\raisebox{-0.05\height}\faGithub \hspace{2pt}Develop a pure python script to crawl Instagram pages}} $|$ \emph{ Python}}{2024}
+	\vspace{-30pt}
+	\resumeProjectHeading
+	{\textbf {\href{https://github.com/mahdi-khoshmaram/masked-lm-persian}{\raisebox{-0.05\height}\faGithub \hspace{2pt}Masked Language Model Implementation on Middle Persian language}} $|$ \emph{Pytorch, HuggingFace}}{2023}
+	\vspace{-30pt}
+	\resumeProjectHeading
+	{\textbf {\href{https://github.com/mahdi-khoshmaram/movielens-deepwalk}{\raisebox{-0.05\height}\faGithub \hspace{2pt}Representation learning using Deepwalk algorithm on MovieLens dataset}} $|$ \emph{Python}}{2023}
+	\vspace{-30pt}
+	\vspace{1pt}
+	\resumeProjectHeading
+	{\textbf {\href{https://github.com/mahdi-khoshmaram/Question-classification}{\raisebox{-0.05\height}\faGithub \hspace{2pt}Build and train Question Classification models using TREC dataset}} $|$ \emph{python, Scikit Learn, SQL Servers}}{2022}
+	\vspace{-30pt}
+	\resumeProjectHeading
+	{\textbf {\href{https://github.com/mahdi-khoshmaram/Tweet-classification}{\raisebox{-0.05\height}\faGithub \hspace{2pt}Emotion Recognition by Textual Tweets Classification Using Voting Classifier(LR-SGD)}} $|$ \emph{Python, {\tiny NLTK}}}{2022}
+	\vspace{-30pt}
+	\resumeProjectHeading
+	{\textbf {\href{https://github.com/mahdi-khoshmaram/Search-Engine-For-Persian-Poems}{\raisebox{-0.05\height}\faGithub \hspace{2pt}Search engine for Persian Poems}} $|$ \emph{Python, whoosh, Hazm, Parsivar}}{2022}
+	\vspace{-30pt}
+	\resumeProjectHeading
+	{\textbf {\href{https://github.com/mahdi-khoshmaram/software-architecture-chess-game}{\raisebox{-0.05\height}\faGithub \hspace{2pt}Designing a software architecture for web-based chess game}}}{2021}
+	\resumeSubHeadingListEnd
+	\vspace{-7pt}
+	
+	%-----------TA EXPERIENCE-----------
+	\section{\textcolor{title-color}{Teaching Assistant Experiences}}
+	\resumeSubHeadingListStart
+	
+	\resumeSubheading
+	{Algorithm Design - K.N.Toosi University of Technology}{Ongoing}
+	{Role: Head TA in the course}{Dr. Pishgoo}
+	\resumeSubheading
+	{Artificial intelligence - K.N.Toosi University of Technology}{Fall 2023}
+	{Designing HWs and Teaching DL Frameworks and libraries such as PyTorch as a Head Teaching Assistant. }{Dr. Pishgoo}
+	
+	\resumeSubheading
+	{Advanced Programming - Sharif University of Technology}{Fall 2022}
+	{First-class Functions, Closures and Decorators and OOP in Python were taught.}{Dr. Sharifi-Zarchi}
+	\resumeSubHeadingListEnd
+	\vspace{-9pt}
+
+
+	
+		%-----------PROGRAMMING SKILLS-----------
+	\section{\textcolor{title-color}{Technical Skills}}
+	\begin{itemize}[leftmargin=0.01in, label={}]
+		\small{\item{
+				\textbf{Programming Languages}{: Python, Rust, SQL, Cypher, \LaTeX} \\
+				\textbf{NLP}{: LangChain, LangGraph, Hugging Face Tokenizers and Transformers, NLTK, Ollama, Neo4j, OpenAI} \\
+				\textbf{ML}{: PyTorch, Matplotlib, Numpy, Pandas, Scikit Learn} \\
+				\textbf{Web-development}{: Django, HTML, CSS, JavaScript, FastAPI} \\
+				\textbf{Data Management}{: Neo4j, MySQL, Microsoft SQL Server} \\
+				\textbf{Other Tools \& Skills}{: Microsoft Power BI, Git, Docker, Linux, TeXstudio, Prompt Engineering, Wireshark} \\
+		}}
+	\end{itemize}
+
+	
+	%--------------Certificates--------------------
+	\section{\textcolor{title-color}{Certificates}}
+	\vspace{-5pt}
+	\resumeSubHeadingListStart
+	\resumeProjectHeading
+	{\textbf { \vspace{5pt}
+			\href{https://www.coursera.org/learn/generative-ai-with-llms}{\faLink \hspace{2pt}Generative AI with Large Language Models}} $|$ \emph{DeepLearning.AI, AWS}}{2024}
+	\vspace{-30pt}
+	\resumeProjectHeading
+	{\textbf { \vspace{5pt}
+			\href{https://www.coursera.org/account/accomplishments/verify/64GP446637W9}{\faLink \hspace{2pt}Neural Networks and Deep Learning}} $|$ \emph{DeepLearning.AI}}{2023}
+	\vspace{-30pt}
+	\resumeProjectHeading
+	{\textbf { \vspace{5pt}
+			\href{https://coursera.org/verify/W2JV6BBNXEXL}{\faLink \hspace{2pt}Supervised Machine Learning: Regression and Classification}} $|$ \emph{DeepLearning.AI}}{2023}
+	\vspace{-30pt}
+	\resumeProjectHeading
+	{\textbf { \vspace{5pt}
+			\href{https://www.coursera.org/account/accomplishments/verify/3H9LNEQW2HTH}{\faLink \hspace{2pt}Mathematics for Machine Learning: Multivariate Calculus}} $|$ \emph{Coursera}}{2021}
+	\vspace{-30pt}
+	\resumeProjectHeading
+	{\textbf { \vspace{5pt}
+			\href{https://www.coursera.org/account/accomplishments/certificate/745SWF5TY6WX}{\faLink \hspace{2pt}Mathematitcs for machine learning: Linear Algebra}} $|$ \emph{Coursera}}{2021}
+	\vspace{-30pt}
+	\resumeProjectHeading
+	{\textbf { \vspace{5pt}
+			\href{https://www.coursera.org/account/accomplishments/verify/XFP569P38C74}{\faLink \hspace{2pt}Capstone: Retrieving, Processing, and Visualizing Data with Python}} $|$ \emph{Coursera}}{2021}
+	\vspace{-30pt}
+	\resumeProjectHeading
+	{\textbf { \vspace{5pt}
+			\href{https://www.coursera.org/account/accomplishments/verify/YBD3VRJBJ7CR}{\faLink \hspace{2pt}Using Databases with Python}} $|$ \emph{Coursera}}{2021}
+	\vspace{-30pt}
+	\resumeProjectHeading
+	{\textbf { \vspace{5pt}
+			\href{https://www.coursera.org/account/accomplishments/verify/5E73HKWQ8CHA}{\faLink \hspace{2pt}Using Python to Access Web Data}} $|$ \emph{Coursera}}{2021}
+	\vspace{-30pt}
+	\resumeProjectHeading
+	{\textbf { \vspace{5pt}
+			\href{http://coursera.org/verify/HD7F5HX8VH3C}{\faLink \hspace{2pt}Python Data Structures}} $|$ \emph{Coursera}}{2021}
+	\resumeSubHeadingListEnd
+	\vspace{-15pt}
+	
+		%-----------LANGUAGE-----------
+	\section{\textcolor{title-color}{Languages}}
+	\begin{itemize}[leftmargin=0.03in, label={}]
+		\small{\item{
+				\textbf{English}{: Fluent (TOEFL score: 82)} \\
+				\textbf{Persian}{: Native} \\
+				\textbf{Azari}{: Native} \\
+				\textbf{Turkish}{: Fluent} \\
+		}}
+	\end{itemize}
+	\vspace{-16pt}
+	\vspace{40px}
+	\centering
+	 \underline{\faExclamationCircle \hspace{4pt}\textbf{References, Further information, and Proofs are available upon Request}}
+	
+	
+\end{document}
+

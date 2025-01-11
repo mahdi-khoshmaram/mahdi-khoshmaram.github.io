@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Research insights</title>
+        <link rel="icon" type="image/png" href="imgs/research-icon.png">
+        <link rel="stylesheet" href="styles/research-style.css">
+    </head>
+    <body>
+        <div class="left-column">
+            <a class="back-key-anchor" target="_blank" href="index.html">
+                <button class="back-key">My Personal Webpage</button>
+            </a>
+        </div>
+        <div class="middle-culomn---buit-by-my">
+            <div class="middle-column">
+                <!-- zero row -->
+                <div class="zero-row">
+                    Relation Extraction
+                </div>
+                <div class="first-row">
+                    <div class="neo4j-div">
+                        <div class="neo4j-img-div">
+                            <img class="neo4j-img-itself" src="imgs/2-neo4j-close.png" alt="graph in neo4j">
+                        </div>
+                        <div class="neo4j-caption-div">
+                            <span class="bold">Neo4j Graph Visualization</span><br>This knoweldge graph which is named <i>EMCKG</i>, illustrates the relational structure of <a target="_blank" href="https://github.com/Kent0n-Li/ChatDoctor">ChatDoctor dataset</a> using Neo4j. The entities in the EMCKG include <i>disease</i>, <i>symptom</i>, <i>drug recommendation</i>, and <i>test recommendation</i>. The relationships in the EMCKG include <i>possible_disease</i>, <i>need_medical_test</i>, <i>need_medication</i>, <i>has_symptom</i>, <i>can_check_disease</i>, <i>possible_cure_disease</i>. <u>Nodes</u> represent entities, and <u>edges</u> denote their relationships, following the approach outlined in <a target="_blank" href="https://aclanthology.org/2024.acl-long.558/">This paper</a> published in 2024. This visualization supports the analysis by revealing key interconnections within the dataset.
+                        </div>
+                    </div>
+                </div>
+                <!-- second row separated into 4 parts: title, first, second, third paradigm  -->
+                <div class="second-row">
+                    <div class="recent-paradigms-title">
+                        Recent Paradigms in Relation Extractions
+                    </div>
+                    <div class="each-paradigm-div">
+                        <!-- first paradigm -->
+                        <h1>first paradigm</h1>
+                        In this paradigm, relations were extracted using a two-phase approach:<br><strong style="margin-left: 15px;">1) Named Entity Recognition (NER)</strong><br><strong style="margin-left: 15px;">2) Relation Classification (RC)</strong>
+                        <br>A few years ago, extracting relations from sentences required a two-step process. First, a separate model was employed to recognize entities in the text. Then, a second model was used to classify the type of relation most likely present, based on the sentence and the entities identified in the previous step.
+                        <br><img class="paradigm-one-img" src="imgs/1paradigm.png" alt="paradigm steps">
+                        <br><br>However, this approach has two significant drawbacks:
+                        <ul style="margin-top: 0; margin-bottom:0;">
+                            <li style="color: red;">
+                                <strong>Lack of Parameter Sharing:</strong> Parameters are not shared between the NER and RC models, leading to inefficiencies. 
+                            </li>
+                            <li style="color: red;">
+                                <strong>Complex Workflow:</strong> Additional steps such as negative sampling and costly annotation procedures are required, further complicating the process.
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Second paradigm -->
+                    <div class="each-paradigm-div">
+                        <h1>Second paradigm</h1>
+                        For the first time, in 2021, a paper titled <a target="_blank" style="font-weight: 700;" href="https://aclanthology.org/2021.findings-emnlp.204/">REBEL</a> introduced a new approach where relation extraction was treated as a sequence-to-sequence task. In this paradigm, most models were based on Recurrent Neural Networks (RNNs), such as LSTM. In essence, the model takes a sentence as input and generates another sentence as output, revealing the relations present within the original sentence. 
+                        <br><img class="paradigm-one-img" src="imgs/2paradigm.png" alt="paradigm steps">
+                        <br>Although it was a novel approach, RNNs have inherent drawbacks:
+                        <ul style="margin-top: 0; margin-bottom:0;">
+                            <li style="color: red;">
+                                <strong>Hallucination:</strong> RNNs can generate outputs not grounded in the input, leading to errors.
+                            </li>
+                            <li style="color: red;">
+                                <strong>Sequential Processing:</strong> RNNs process data one step at a time, limiting parallelization and slowing down training.
+                            </li>
+                            <li style="color: red;">
+                                <strong>Vanishing/Exploding Gradients:</strong> Limits RNNs' ability to learn long-term dependencies.
+                            </li>
+                            <li style="color: red;">
+                                <strong>Difficulty with Long-Term Dependencies:</strong> RNNs struggle to capture distant relationships in sequences.
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Third paradigm -->
+                    <div class="each-paradigm-div">
+                        <h1>Latest Paradigm</h1>
+                        With the rise of Transformers, relation extraction models have shifted from traditional approaches to leveraging Large Language Models (LLMs). These models have demonstrated significant improvements, particularly through Retrieval-Augmented Generation (RAG) systems, which help mitigate issues like hallucinations. The parallel processing capabilities of Transformers also result in much faster data handling.
+                        <br>In the second paradigm, fine-tuning was necessary to adapt the model to the desired output format. LLMs address this challenge through few-shot or single-shot learning and advanced prompt engineering, reducing the need for extensive fine-tuning.
+                        <br><img class="paradigm-three-img" src="imgs/transformer.png" alt="transformer architecture">
+                    </div>
+                </div>
+            </div>
+            <p class="built-by-me">This website is built by me, with &#x1F9E1; and &#x2615;!</p>
+        </div>
+        <div class="right-column"></div>
+    </body>
+</html>
