@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.7)  10 FEB 2025 11:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.7)  2 MAR 2025 05:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -513,17 +513,17 @@ Overfull \hbox (0.55968pt too wide) in paragraph at lines 244--248
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 248--251
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 248--252
 [] 
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 251--254
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 252--255
 [] 
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 254--257
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 255--258
 [] 
  []
 
@@ -541,43 +541,43 @@ i/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free2.enc}{C:/U
 sers/mahdi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.
 enc}{C:/Users/mahdi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/
 fa5brands0.enc}]
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 257--260
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 258--261
 [] 
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 260--263
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 261--264
 [] 
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 263--267
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 264--267
 [] 
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 267--270
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 267--271
 [] 
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 270--273
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 271--274
 [] 
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 273--276
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 274--277
 [] 
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 276--277
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 277--280
+[] 
+ []
+
+
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 280--281
 []  
- []
-
-
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 319--323
-[] 
  []
 
 
@@ -616,7 +616,12 @@ Overfull \hbox (0.55968pt too wide) in paragraph at lines 347--351
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 351--352
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 351--355
+[] 
+ []
+
+
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 355--356
 []  
  []
 
@@ -642,7 +647,7 @@ Package rerunfilecheck Info: File `CV.out' has not changed.
 Here is how much of TeX's memory you used:
  14482 strings out of 473899
  249860 string characters out of 5726500
- 667830 words of memory out of 5000000
+ 668830 words of memory out of 5000000
  37174 multiletter control sequences out of 15000+600000
  568047 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -664,9 +669,9 @@ ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/mahdi/A
 ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/User
 s/mahdi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti7.pfb>
 
-Output written on CV.pdf (2 pages, 209404 bytes).
+Output written on CV.pdf (2 pages, 209709 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
+ 155 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
